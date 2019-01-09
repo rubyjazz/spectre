@@ -23,7 +23,7 @@ body {
   align-items: center;
 }
 .textbox {
-  display: flex;
+
   flex-basis: 500px;
   max-width: 300px;
   margin-right: 15%;
