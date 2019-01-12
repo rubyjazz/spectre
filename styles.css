@@ -400,6 +400,7 @@ h4 {
   display: block;
   float: right;
   margin: 0 0;
+  margin-right: 5px;
 }
 
 .button_container {
@@ -475,15 +476,15 @@ body {
 @media screen and (max-width: 600px) {
 
 #right {
-  height: 500px;
+  height: 520px;
 }
 
 h1 {
   font-size: 70px;
 }
 
-h2 {
-  font-size: 20px;
+.textbox {
+  margin-top:-20px;
 }
 
 h3, h4{
