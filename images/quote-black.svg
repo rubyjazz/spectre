@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="29px" viewBox="0 0 55 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0007 -0.0004 21.7307 -0.0004 21.7307 28.7615 0.0007 28.7615"></polygon>
+        <polygon id="path-3" points="0.0007 -0.0004 21.7307 -0.0004 21.7307 28.7615 0.0007 28.7615"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-628.000000, -939.000000)">
+            <g id="Group-4" transform="translate(655.500000, 953.500000) rotate(-180.000000) translate(-655.500000, -953.500000) translate(628.000000, 939.000000)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M21.7307,10.8646 C21.7307,20.3536 11.0027,30.1186 2.0627,28.6056 C4.6767,28.1926 8.6157,24.6976 9.4887,21.7296 C4.1267,21.0426 0.0007,16.5026 0.0007,10.8646 C0.0007,4.9506 4.8137,-0.0004 10.8647,-0.0004 C16.7777,-0.0004 21.7307,4.9506 21.7307,10.8646" id="Fill-1" fill="#000000" mask="url(#mask-2)"></path>
+                </g>
+                <g id="Group-3-Copy" transform="translate(33.000000, 0.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M21.7307,10.8646 C21.7307,20.3536 11.0027,30.1186 2.0627,28.6056 C4.6767,28.1926 8.6157,24.6976 9.4887,21.7296 C4.1267,21.0426 0.0007,16.5026 0.0007,10.8646 C0.0007,4.9506 4.8137,-0.0004 10.8647,-0.0004 C16.7777,-0.0004 21.7307,4.9506 21.7307,10.8646" id="Fill-1" fill="#000000" mask="url(#mask-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

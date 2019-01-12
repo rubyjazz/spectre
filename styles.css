@@ -288,7 +288,23 @@ p {
   color: #B2b2b2;
 
 }
+#quotes {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  bottom: 0;
 
+}
+#quote-white{
+  display: inline-block;
+  float: right;
+}
+
+#quote-black {
+  display: inline-block;
+
+}
 h3 {
   font-size: 12px;
   color: #B2B2B2;
@@ -358,8 +374,33 @@ h4 {
    transform: translateY(0);
 }
 }
+@media screen and (max-width: 900px) {
 
+  #quotes {
+    display: none;
+  }
+}
 @media screen and (max-width: 768px) {
+  #quotes {
+    display: inline-block;
+    border: gray 1px solid;
+    margin: 0 0;
+    margin-top: 40px;
+    margin-right: 3%;
+    float: right;
+    width: 0px;
+    height: 0px;
+  }
+
+#quote-white {
+  display: none;
+}
+
+#quote-black {
+  display: block;
+  float: right;
+  margin: 0 0;
+}
 
 .button_container {
   top: 2%;
