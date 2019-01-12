@@ -393,7 +393,6 @@ h4 {
 @media screen and (max-width: 768px) {
   #quotes {
     display: inline-block;
-    border: gray 1px solid;
     margin: 0 0;
     margin-top: 40px;
     margin-right: 3%;
