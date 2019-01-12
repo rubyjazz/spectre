@@ -244,6 +244,10 @@ p {
 
 }
 
+#headerbox p {
+  color: black;
+}
+
 .photo-1 {
   width: 30%;
   min-width: 200px;
@@ -308,11 +312,13 @@ p {
 h3 {
   font-size: 12px;
   color: #B2B2B2;
+  font-weight: normal;
 }
 
 h4 {
   font-size: 12px;
   color: #000;
+  font-weight: normal;
 }
 
 
