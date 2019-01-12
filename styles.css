@@ -246,6 +246,7 @@ p {
 
 .photo-1 {
   width: 30%;
+  min-width: 200px;
   height: auto;
   float: left;
   position: absolute;
@@ -360,31 +361,37 @@ h4 {
 
 @media screen and (max-width: 768px) {
 
-  .button_container span {
+.button_container {
+  top: 2%;
+  right: 5%;
+}
+
+.button_container span {
     background: black;
     color: black;
+
   }
 
-  #container {
+#container {
     display: block;
   }
 
-  .wrapper {
+.wrapper {
     position: absolute;
 
   }
 
-  #left {
+#left {
     display: flex;
     width: 100vw;
     height: 500px;
 
   }
 
-  #right {
+#right {
     display: flex;
     width: 100vw;
-    height: 800px;
+    height: 650px;
 
   }
 
@@ -407,8 +414,13 @@ body {
     width: 100%;
 }
 
+#footer ul {
+  margin-top: 15px;
+}
+
 .photo-1 {
-  margin-bottom: -650px;
+  margin-bottom: 95px;
+
 }
 
 .textbox {
@@ -419,6 +431,27 @@ body {
 
 @media screen and (max-width: 600px) {
 
+#right {
+  height: 500px;
+}
 
+h1 {
+  font-size: 70px;
+}
 
+h2 {
+  font-size: 20px;
+}
+
+h3, h4{
+  font-size: 9px;
+}
+
+p {
+  font-size: 12px;
+}
+
+#footer ul {
+  margin-top: 25px;
+}
 }
