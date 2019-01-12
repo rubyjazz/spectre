@@ -420,7 +420,9 @@ body {
 
 .photo-1 {
   margin-bottom: 95px;
-
+  right: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .textbox {
