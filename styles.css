@@ -24,7 +24,7 @@ hr {
 }
 
 .button_container {
-  position: fixed;
+  position: absolute;
   top: 5%;
   right: 2%;
   height: 27px;
@@ -360,6 +360,11 @@ h4 {
 
 @media screen and (max-width: 768px) {
 
+  .button_container span {
+    background: black;
+    color: black;
+  }
+
   #container {
     display: block;
   }
@@ -379,7 +384,7 @@ h4 {
   #right {
     display: flex;
     width: 100vw;
-    height: 500px;
+    height: 800px;
 
   }
 
@@ -387,22 +392,33 @@ p {
   font-size: 14px;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
 #footer {
-  display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
 }
 
-#photo-1 {
-  bottom: 0;
+.photo-1 {
+  margin-bottom: -650px;
 }
 
+.textbox {
+  margin-left: 8%;
+  margin-top: 50px;
 }
+
 
 @media screen and (max-width: 600px) {
 
 
-
-p {
-  font-size: 14px;
-}
 
 }
