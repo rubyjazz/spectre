@@ -36,9 +36,13 @@ hr {
 .button_container:hover {
   opacity: .7;
 }
+.button_container.active {
+  position: fixed;
+}
 .button_container.active .top {
   transform: translateY(11px) translateX(0) rotate(45deg);
   background: #FFF;
+
 }
 .button_container.active .middle {
   opacity: 0;
