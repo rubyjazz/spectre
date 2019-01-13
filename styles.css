@@ -476,34 +476,44 @@ input[type=submit]:hover {
 
 
 
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: #000;
-  color: #FFF;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  z-index:10;
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: #000;
+.description {
+  margin: 1em auto 2.25em;
 }
 
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: #000;
-  display: none;
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul .inner {
+  padding-left: 1em;
   overflow: hidden;
+  display: none;
+}
+ul .inner.show {
+  /*display: block;*/
+}
+ul li {
+  margin: 0.5em 0;
   color: white;
 }
-
+ul li a.toggle {
+  width: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.78);
+  color: #FFF;
+  padding: 0.75em;
+  border-radius: 0.15em;
+  transition: background 0.3s ease;
+}
+ul li a.toggle:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
 
 /* MEDIA QUERIES START HERE */
 
