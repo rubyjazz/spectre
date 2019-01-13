@@ -200,6 +200,24 @@ hr {
 
 }
 
+.services-textbox {
+
+  flex-basis: 500px;
+  max-width: 500px;
+  margin-right: 15%;
+  margin-left: 15%;
+  -webkit-animation: fadeinDown 1.5s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadeinDown 1.5s; /* Firefox < 16 */
+       -ms-animation: fadeinDown 1.5s; /* Internet Explorer */
+        -o-animation: fadeinDown 1.5s; /* Opera < 12.1 */
+           animation: fadeinDown 1.5s;
+
+}
+
+.services-textbox h2 {
+  margin: 0;
+}
+
 .left-textbox {
   margin-top: 70px;
   width: 500px;
@@ -486,7 +504,7 @@ a {
   margin: 1em auto 2.25em;
 }
 
-ul {
+.services-textbox ul  {
   list-style: none;
   padding: 0;
 }
@@ -498,7 +516,7 @@ ul .inner {
 ul .inner.show {
   /*display: block;*/
 }
-ul li {
+.services-textbox ul li {
   margin: 0.5em 0;
   color: white;
 }
