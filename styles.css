@@ -201,7 +201,7 @@ hr {
 }
 
 .left-textbox {
-  margin-top: 20px;
+  margin-top: 70px;
   width: 500px;
   max-width: 300px;
   margin-right: 15%;
@@ -213,10 +213,10 @@ hr {
 
 }
 .contact-textbox {
-
+  z-index: 3;
   flex-basis: 500px;
-  max-width: 300px;
-  margin-top: -40%;
+  max-width: 500px;
+  margin-top: 0;
   margin-right: 15%;
   margin-left: 15%;
   -webkit-animation: fadeinDown 1.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -292,10 +292,10 @@ p {
   width: 40vw;
   min-width: 200px;
   height: auto;
-  position:relative;
+  position:fixed;
   float: right;
   overflow: hidden;
-
+  z-index: 1;
 }
 
 .logo {
@@ -418,6 +418,59 @@ h4 {
    transform: translateY(0);
 }
 }
+
+/* EMAIL FORM */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1.5px solid #FFF; /* Gray border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: -1.5px; /* Add a top margin */
+  margin-bottom: -1.5px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+input {
+  background-color: black;
+  font-family: 'Source Code Pro', Serif;
+  color: white;
+}
+
+textarea {
+  font-family: 'Source Code Pro', Serif;
+}
+
+#subject {
+  background-color: #000;
+  color: white;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  border: 1.5px solid white;
+  padding: 12px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  color: #fff;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+/* Add a background color and some padding around the form */
+.email-form {
+
+
+}
+
+/* MEDIA QUERIES START HERE */
+
 @media screen and (max-width: 900px) {
 
   #quotes {
