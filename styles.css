@@ -291,9 +291,10 @@ p {
 .photo-2 {
   width: 40vw;
   min-width: 200px;
+  max-height: 400px;
   height: auto;
-  position:fixed;
-  float: right;
+  position:absolute;
+  right: -20%;
   overflow: hidden;
   z-index: 1;
 }
