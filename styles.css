@@ -106,7 +106,6 @@ hr {
   height: 500px;
   min-height: 500px;
   margin-top: 20%;
-
   font-size: 50px;
   font-family: 'Spectral', serif;
   font-weight:700;
@@ -193,7 +192,6 @@ hr {
   max-width: 300px;
   margin-right: 15%;
   margin-left: 15%;
-
   -webkit-animation: fadeinDown 1.5s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadeinDown 1.5s; /* Firefox < 16 */
        -ms-animation: fadeinDown 1.5s; /* Internet Explorer */
@@ -202,6 +200,32 @@ hr {
 
 }
 
+.left-textbox {
+  margin-top: 20px;
+  width: 500px;
+  max-width: 300px;
+  margin-right: 15%;
+  -webkit-animation: fadeinDown 1.5s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadeinDown 1.5s; /* Firefox < 16 */
+       -ms-animation: fadeinDown 1.5s; /* Internet Explorer */
+        -o-animation: fadeinDown 1.5s; /* Opera < 12.1 */
+           animation: fadeinDown 1.5s;
+
+}
+.contact-textbox {
+
+  flex-basis: 500px;
+  max-width: 300px;
+  margin-top: -40%;
+  margin-right: 15%;
+  margin-left: 15%;
+  -webkit-animation: fadeinDown 1.5s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadeinDown 1.5s; /* Firefox < 16 */
+       -ms-animation: fadeinDown 1.5s; /* Internet Explorer */
+        -o-animation: fadeinDown 1.5s; /* Opera < 12.1 */
+           animation: fadeinDown 1.5s;
+
+}
 
 h2 {
   font-family: 'Spectral', serif;
@@ -261,6 +285,16 @@ p {
   bottom: 0;
   overflow: hidden;
   margin-bottom: -5px;
+
+}
+
+.photo-2 {
+  width: 40vw;
+  min-width: 200px;
+  height: auto;
+  position:relative;
+  float: right;
+  overflow: hidden;
 
 }
 
