@@ -181,10 +181,20 @@ hr {
   display: flex;
   width: 50vw;
   height: 100vh;
-
+  position: static;
   background-color: #000;
   align-items: center;
-  overflow:auto;
+  overflow:scroll;
+}
+
+#services-right {
+  float: right;
+  width: 50vw;
+  height: 100vh;
+  position: static;
+  background-color: #000;
+  align-items: center;
+  overflow:scroll;
 }
 .textbox {
 
@@ -201,7 +211,7 @@ hr {
 }
 
 .services-textbox {
-
+  margin-top: 100px;
   height: auto;
   flex-basis: 400px;
   max-width: 400px;
@@ -274,6 +284,10 @@ p {
 }
 
 #right hr {
+  color: #FFF;
+}
+
+#services-right hr {
   color: #FFF;
 }
 
@@ -491,7 +505,6 @@ input[type=submit]:hover {
 }
 
 /* ACCORDION LIST */
-
 
 
 a {
