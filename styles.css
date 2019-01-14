@@ -202,8 +202,9 @@ hr {
 
 .services-textbox {
 
-  flex-basis: 500px;
-  max-width: 500px;
+  height: auto;
+  flex-basis: 400px;
+  max-width: 400px;
   margin-right: 15%;
   margin-left: 15%;
   -webkit-animation: fadeinDown 1.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -211,7 +212,6 @@ hr {
        -ms-animation: fadeinDown 1.5s; /* Internet Explorer */
         -o-animation: fadeinDown 1.5s; /* Opera < 12.1 */
            animation: fadeinDown 1.5s;
-
 }
 
 .services-textbox h2 {
@@ -494,7 +494,6 @@ input[type=submit]:hover {
 
 
 
-
 a {
   text-decoration: none;
   color: inherit;
@@ -509,12 +508,21 @@ a {
   padding: 0;
 }
 ul .inner {
-  padding-left: 1em;
+  padding-left: 15%;
   overflow: hidden;
   display: none;
 }
 ul .inner.show {
   /*display: block;*/
+}
+
+.inner span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.inner a {
+  text-decoration: underline;
 }
 .services-textbox ul li {
   margin: 0.5em 0;
