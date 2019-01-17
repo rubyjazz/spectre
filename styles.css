@@ -4,7 +4,6 @@ body {
 
 .flex-container {
   display: flex;
-
 }
 
 .wrapper {
@@ -280,12 +279,13 @@ hr {
 
 }
 .contact-textbox {
+  position: absolute;
   z-index: 45;
   flex-basis: 500px;
   max-width: 500px;
   margin-top: 0;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 10%;
+  margin-left: 10%;
   -webkit-animation: fadeinDown 1.5s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadeinDown 1.5s; /* Firefox < 16 */
        -ms-animation: fadeinDown 1.5s; /* Internet Explorer */
@@ -360,13 +360,12 @@ p {
 }
 
 .photo-2 {
-  width: 40vw;
   min-width: 200px;
   max-height: 400px;
   height: auto;
   position:absolute;
-  right: -20%;
-  overflow: hidden;
+  right: 0;
+  overflow:hidden;
   z-index: 1;
 }
 
@@ -666,7 +665,7 @@ ul li a.toggle:hover {
 #right {
     display: flex;
     width: 100vw;
-    height: 650px;
+    height: 750px;
 
   }
 
@@ -713,6 +712,7 @@ body {
 }
 
 .textbox {
+  position: absolute;
   margin-left: 8%;
   margin-top: 50px;
   z-index: 45;
