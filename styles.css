@@ -4,6 +4,7 @@ body {
 
 .flex-container {
   display: flex;
+
 }
 
 .wrapper {
@@ -665,7 +666,7 @@ ul li a.toggle:hover {
 #right {
     display: flex;
     width: 100vw;
-    height: 750px;
+    height: 700px;
 
   }
 
@@ -714,8 +715,8 @@ body {
 .textbox {
   position: absolute;
   margin-left: 8%;
-  margin-top: 50px;
   z-index: 45;
+  margin-top: -30px;
 }
 
 
