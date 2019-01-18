@@ -310,6 +310,9 @@ $('#toggle').click(function() {
     }
 });
 
+$(document).on('click', '.toggle', function(e) {
+  $(this).addClass('div-underline').siblings('.toggle').removeClass('div-underline');;
+});
 
  </script>
 
