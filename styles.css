@@ -606,19 +606,13 @@ ul li a.toggle:hover {
   background: rgba(0, 0, 0, 0.9);
 
 }
-/*
-.toggle:hover {
-  text-decoration: underline;
-}
-.toggle:focus {
-  text-decoration: underline;
 
-}*/
 .toggle {
   text-decoration: none;
  }
 .div-underline {
   text-decoration: underline;
+
 }
 
 

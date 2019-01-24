@@ -272,12 +272,6 @@
         </div>
 
 
-<!--
-        <div class="photo-1">
-              <img src="images/city-img-3.png" alt="a picture of a new york skyline" />
-        </div>
--->
-
     </div>
 
 <!-- Footer -->
@@ -302,6 +296,13 @@
 </div>
 
 <script>
+
+$(document).on('click', '.toggle', function(e) {
+  $(this).toggleClass('div-underline')
+});
+
+
+
 
 $('#toggle').click(function() {
    $(this).toggleClass('active');
@@ -328,9 +329,7 @@ $('#toggle').click(function() {
     }
 });
 
-$(document).on('click', '.toggle', function(e) {
-  $(this).addClass('div-underline').siblings('.toggle').removeClass('div-underline');;
-});
+
 
  </script>
 
