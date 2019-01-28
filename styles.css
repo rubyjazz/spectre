@@ -267,6 +267,13 @@ hr {
   margin: 0;
 }
 
+span .bullet {
+  display: list-item;
+  list-style-type:disc;
+
+
+}
+
 .left-textbox {
   margin-top: 70px;
   width: 500px;
