@@ -625,16 +625,20 @@ ul li a.toggle:hover {
 
 /* MEDIA QUERIES START HERE */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 
-  #quotes {
-    display: none;
-  }
+
   #footer h4 {
     font-size: 10px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
+
+#quotes {
+  display: none;
+}
+}
+@media screen and (max-width: 800px) {
   #quotes {
     display: inline-block;
     margin: 0 0;
@@ -679,14 +683,14 @@ ul li a.toggle:hover {
 #left {
     display: flex;
     width: 100vw;
-    height: 500px;
+    max-height: 500px;
 
   }
 
 #right {
     display: flex;
     width: 100vw;
-    height: 700px;
+    max-height: 700px;
 
   }
 
