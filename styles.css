@@ -4,7 +4,7 @@ body {
 
 .flex-container {
   display: flex;
-
+  flex-direction: column;
 }
 
 .wrapper {
@@ -203,7 +203,7 @@ hr {
 
 
 #left {
-  display: flex;
+
   width: 50vw;
   height: 100vh;
   background-color: #FFF;
@@ -211,8 +211,6 @@ hr {
   float: left;
 }
 #right {
-  float: right;
-  display: flex;
   width: 50vw;
   height: 100vh;
   position: static;
@@ -677,18 +675,19 @@ ul li a.toggle:hover {
 
 .wrapper {
     position: absolute;
-
+    display: flex;
+    flex-direction: row;
   }
 
 #left {
-    display: flex;
+
     width: 100vw;
     max-height: 500px;
 
   }
 
 #right {
-    display: flex;
+
     width: 100vw;
     max-height: 700px;
 
