@@ -213,7 +213,6 @@ hr {
 #right {
   width: 50vw;
   height: 100vh;
-  position: static;
   background-color: #000;
   align-items: center;
   overflow:scroll;
@@ -236,6 +235,7 @@ hr {
   max-width: 300px;
   margin-right: 15%;
   margin-left: 10%;
+  margin-top: 10%;
   -webkit-animation: fadeinDown 1.5s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadeinDown 1.5s; /* Firefox < 16 */
        -ms-animation: fadeinDown 1.5s; /* Internet Explorer */
@@ -292,6 +292,7 @@ span .bullet {
   margin-top: 0;
   margin-right: 10%;
   margin-left: 10%;
+  margin-top: 10%;
   -webkit-animation: fadeinDown 1.5s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadeinDown 1.5s; /* Firefox < 16 */
        -ms-animation: fadeinDown 1.5s; /* Internet Explorer */
@@ -739,7 +740,6 @@ body {
   position: absolute;
   margin-left: 8%;
   z-index: 45;
-  margin-top: -30px;
 }
 
 
@@ -754,7 +754,7 @@ h1 {
 }
 
 .textbox {
-  margin-top:-20px;
+
   z-index: 45;
 }
 
