@@ -616,11 +616,13 @@ ul li a.toggle:hover {
 .toggle {
   text-decoration: none;
  }
+/* underline
+
 .div-underline {
   text-decoration: underline;
 
 }
-
+*/
 
 /* MEDIA QUERIES START HERE */
 
