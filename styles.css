@@ -260,10 +260,30 @@ hr {
            animation: fadeinDown 1.5s;
            z-index: 45;
 }
+.blog-textbox {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  height: auto;
+  flex-basis: 400px;
+  max-width: 400px;
+  margin-right: 15%;
+  margin-left: 16%;
+  -webkit-animation: fadeinDown 1.5s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadeinDown 1.5s; /* Firefox < 16 */
+       -ms-animation: fadeinDown 1.5s; /* Internet Explorer */
+        -o-animation: fadeinDown 1.5s; /* Opera < 12.1 */
+           animation: fadeinDown 1.5s;
+           z-index: 45;
+}
 
 .services-textbox h2 {
   margin: 0;
 }
+.blog-textbox h2 {
+  margin: 0;
+}
+
 
 span .bullet {
   display: list-item;
@@ -308,6 +328,7 @@ h2 {
   line-height: 1.1;
 }
 
+
 h1 {
   font-family: 'Spectral', serif;
   font-size:80px;
@@ -322,7 +343,6 @@ p {
   color: #fff;
   display: block;
 }
-
 
 
 #left hr {
@@ -574,6 +594,10 @@ a {
   list-style: none;
   padding: 0;
 }
+.blog-textbox ul  {
+  list-style: none;
+  padding-left: 0;
+}
 ul .inner {
   padding-left: 15%;
   overflow: hidden;
@@ -593,6 +617,10 @@ ul .inner.show {
 }
 .services-textbox ul li {
   margin: 0.5em 0;
+  color: white;
+}
+.blog-textbox ul li {
+  margin: 0.5em 0 50px 0;
   color: white;
 }
 ul li a.toggle {
@@ -703,6 +731,11 @@ ul li a.toggle:hover {
 
     }
 .services-textbox {
+  margin-left: 8%;
+  margin-bottom: 30px;
+  z-index: 45;
+}
+.blog-textbox {
   margin-left: 8%;
   margin-bottom: 30px;
   z-index: 45;

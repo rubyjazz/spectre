@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Spectre Literary</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Spectral:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+
+
+<!-- Header -->
+
+<div class="button_container" id="toggle">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</div>
+  <div class="overlay" id="overlay">
+    <nav class="overlay-menu">
+
+      <ul>
+        <li><hr/></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+    </nav>
+  </div>
+
+
+<!--left side-->
+
+<div class="flex-container">
+
+  <div id="wrapper">
+
+    <div id="left">
+
+      <div id="headerbox">
+
+          <div class="logo"><a href="index.html"><img src="images/logo.png" height="50px"></a></div>
+
+          <h1>Contact</h1><hr/>
+
+            <div class="left-textbox">
+              <p>Have a question about our services, rates, or writing team?  Submit a query using the contact form to get in touch with a lead writer or project manager.</p>
+            </div>
+
+      </div>
+
+
+
+
+    </div>
+
+<!--right side-->
+
+
+    <div id="right">
+
+
+        <div class="contact-textbox">
+            <hr/><br/>
+            <h2>Get in Contact</h2>
+             <div class="email-form">
+               <form action="https://formspree.io/queries@spectreliterary.com" method="POST" />
+
+
+                <!--<form action="action_page.php">-->
+
+
+                      <input type="text" id="name" name="first-name" placeholder="Your name">
+
+
+                      <input type="text" id="email" name="email" placeholder="you@email.com">
+
+
+                  </select>
+
+
+                  <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+  <input type="submit" value="Submit">
+
+</form>
+</div>
+
+        </div>
+
+
+
+        <div class="photo-2">
+              <img src="images/img-2.png" alt="abstract grayscale photo" />
+        </div>
+
+
+    </div>
+
+<!-- Footer -->
+
+    <div id="footer">
+      <ul>
+          <li><h3>Legal</h3></li>
+          <li><h4>&copy; 2019 Spectre Literary</h4></li>
+      </ul>
+      <ul>
+          <li><h3>Contact</h3></li>
+          <li><h4><a href="#">queries@spectreliterary.com</a></h4></li>
+      </ul>
+      <div id="quotes">
+        <div id="quote-black"><img src="images/quote-black.svg"/></div>
+        <div id="quote-white"><img src="images/quote-white.svg"/></div>
+      </div>
+    </div>
+
+<!--end of footer-->
+  </div>
+</div>
+
+<script>
+$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+ });
+</script>
+
+  </body>
+</html>
