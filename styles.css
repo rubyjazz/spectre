@@ -396,6 +396,19 @@ p {
   z-index: 1;
 }
 
+.photo-3 {
+  width: 20%;
+  min-width: 200px;
+  height: auto;
+  max-height: 300px;
+  float: left;
+  position: absolute;
+  bottom: 15%;
+  overflow: hidden;
+  margin-bottom: -5px;
+  z-index: 1;
+}
+
 .logo {
   height: 50px;
   width: 50px;
@@ -622,7 +635,16 @@ ul .inner.show {
 .blog-textbox ul li {
   margin: 0.5em 0 50px 0;
   color: white;
+  transition: background 0.3s ease;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+
 }
+.blog-textbox ul li h2:hover {
+  text-decoration: underline;
+}
+
 ul li a.toggle {
   width: 100%;
   display: block;
