@@ -140,7 +140,7 @@ hr {
   position: relative;
   height: 500px;
   min-height: 500px;
-  margin-top: 20%;
+  margin-top: 15%;
   font-size: 50px;
   font-family: 'Spectral', serif;
   font-weight:700;
@@ -164,7 +164,7 @@ hr {
   height: calc(100% / 4);
   min-height: 50px;
   position: relative;
-  margin: -65px auto;
+  margin: -50px auto;
   opacity: 0;
 }
 .overlay ul li a {
@@ -178,11 +178,12 @@ hr {
 .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
   width: 100%;
 }
+
 .overlay ul li a:after {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 0;
   width: 0%;
   transform: translateX(-50%);
   height: 3px;
@@ -280,6 +281,7 @@ hr {
            animation: fadeinDown 1.5s;
            z-index: 45;
 }
+
 
 .services-textbox h2 {
   margin: 0;
@@ -639,14 +641,15 @@ ul .inner.show {
 .blog-textbox ul li {
   margin: 0.5em 0 50px 0;
   color: white;
-  transition: background 0.3s ease;
-  -webkit-transition: background 0.3s ease;
-  -moz-transition: background 0.3s ease;
-  -o-transition: background 0.3s ease;
 
 }
 .blog-textbox ul li h2:hover {
-  text-decoration: underline;
+  text-decoration: underline white;
+
+}
+.blog-textbox ul li h2:after {
+text-decoration: none;
+
 }
 
 ul li a.toggle {
@@ -803,6 +806,11 @@ body {
   z-index: 45;
 }
 
+
+
+.article p {
+  font-size: 16pt;
+}
 
 @media screen and (max-width: 600px) {
 
