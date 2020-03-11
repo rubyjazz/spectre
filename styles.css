@@ -1,5 +1,6 @@
 body {
-  margin: 0 0;
+  margin: 0;
+  padding: 0;
 }
 
 .flex-container {
@@ -131,6 +132,9 @@ hr {
 }
 .overlay.open li:nth-of-type(4) {
   animation-delay: .50s;
+}
+.overlay.open li:nth-of-type(5) {
+  animation-delay: .55s;
 }
 .overlay nav {
   position: relative;
