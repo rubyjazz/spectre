@@ -599,7 +599,7 @@ input[type=submit] {
   transition: .5s;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button */
 input[type=submit]:hover {
   background-color: #FFF;
   color: #000;
@@ -666,7 +666,7 @@ text-decoration: none;
 
 }
 
-.blog-textbox a{
+.blog-textbox p a{
   text-decoration: underline white;
 
 }
