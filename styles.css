@@ -267,7 +267,7 @@ hr {
 }
 .blog-textbox {
   position: relative;
-  margin-top: 50px;
+  margin-top: 75px;
   margin-bottom: 100px;
   height: auto;
   flex-basis: 400px;
@@ -652,6 +652,11 @@ text-decoration: none;
 
 }
 
+.blog-textbox a{
+  text-decoration: underline white;
+
+}
+
 ul li a.toggle {
   width: 100%;
   display: block;
@@ -811,6 +816,8 @@ body {
 .article p {
   font-size: 16pt;
 }
+
+
 
 @media screen and (max-width: 600px) {
 
