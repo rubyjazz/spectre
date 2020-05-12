@@ -415,6 +415,20 @@ p {
   z-index: 1;
 }
 
+.photo-4 {
+  width: 20%;
+  min-width: 200px;
+  height: auto;
+  max-height: 400px;
+  float: right;
+  right: 0;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  margin-bottom: -5px;
+  z-index: 1;
+}
+
 .logo {
   height: 50px;
   width: 50px;
@@ -803,6 +817,10 @@ body {
   right: 0;
   position: absolute;
   bottom: 0;
+}
+
+.photo-4 {
+  margin-bottom: 100px;
 }
 
 .textbox {
